@@ -1,0 +1,34 @@
+<footer class="footer">
+    <div class="bottom">
+        <p>
+            <span>
+                <% if(theme.ICP_license) {%>
+                <a href="http://www.miitbeian.gov.cn/" target="_blank">
+                    <%- theme.ICP_license %></a><br>
+                <% } %>
+                Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/yscoder/hexo-theme-indigo"
+                    target="_blank">indigo</a>
+            </span>
+            <span>
+                <%-config.author %> &copy;
+                <%if (theme.since_year && theme.since_year < date(new Date(), 'YYYY')) {%>
+                <%- theme.since_year %> -
+                <%}%>
+                <%- date(new Date(), 'YYYY') %>
+            </span>
+        </p>
+        <p>
+            <% if ((config.feed) && (config.feed.path.length)) { %>
+            <span><a href="<%- url_for(config.feed.path) %>" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
+            <% } %>
+            <span>
+                <%- __('footer.license') %></span>
+            <span>
+                Icons made by <a href="https://www.flaticon.com/authors/prettycons" title="prettycons">prettycons</a>
+                from
+                <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
+                    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+            </span>
+        </p>
+    </div>
+</footer>
