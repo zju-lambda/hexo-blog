@@ -51,7 +51,7 @@ categories_title: 成员
 excerpt_render: false
 excerpt_length: 200
 excerpt_link: 阅读全文...
-mathjax: false
+mathjax: true
 archive_yearly: true
 
 # 是否显示文章最后更新时间
@@ -156,8 +156,6 @@ cdn: true
 
 # 设置为 true 将使用 lightbox render 图片
 lightbox: true
-
-mathjax: true
 
 # icp备案号  ICP_license: 京ICP备1234556号-1
 ICP_license: 蜀ICP备18009417号-1
