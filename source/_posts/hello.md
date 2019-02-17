@@ -3,6 +3,7 @@ title: zju lambda 博客迁移到 Hexo 了
 tags: activities
 category: zju-lambda group
 date: 2018-01-31 15:16:24
+mathjax: true
 ---
 
 Ghost 还是不够轻，而且每篇文章都必须配图，不然就很丑。而且 Ghost 的权限管理也不够简单，大家都不想来 zju lambda 网站写博客。
