@@ -2,7 +2,7 @@
 title: zju lambda 博客迁移到 Hexo 了
 tags: activities
 category: zju-lambda group
-date: 2018-01-31 15:16:24
+date: 2017-01-31 15:16:24
 mathjax: true
 ---
 
