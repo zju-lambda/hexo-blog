@@ -2,7 +2,7 @@
 title: Symmetry Book 笔记(1)：类型，自然数，恒等类型，积类型
 tags: 
     - Type Theory
-category: notes
+category: Shuenhoy
 date: 2019-02-17 16:42:50
 redirect: https://zhuanlan.zhihu.com/p/56935064
 ---

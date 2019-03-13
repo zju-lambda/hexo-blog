@@ -1,6 +1,8 @@
 ---
 title: Dafny与程序验证
-tags: activities
+tags: 
+    - dafny
+    - verification
 category: nicekingwei
 date: 2017-10-21 15:16:24
 redirect: https://zhuanlan.zhihu.com/p/30321583
